@@ -2,9 +2,7 @@ import {Injectable} from '@angular/core';
 
 import {ITitleService} from './ITitleService';
 
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable()
 export class TitleService implements ITitleService {
 
   somethingVeryCool() {

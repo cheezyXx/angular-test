@@ -13,10 +13,6 @@ export interface OffersModuleConfig {
   imports: [],
   exports: [FoodListComponent],
   declarations: [FoodListComponent],
-  providers: [
-    // {provide: ITitleService, useValue: TitleService },
-    // SpecialTitleService,
-  ],
 })
 export class FoodModule {
   static forRoot(config?: OffersModuleConfig): ModuleWithProviders {
